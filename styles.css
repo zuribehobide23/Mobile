@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    align-items: center;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.hero-section {
+    background: url('eraikuntza.jpg') no-repeat center center/cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.carousel img {
+    border-radius: 10px;
+}
+.content-section img {
+    width: 200px; 
+    height: auto; 
+    max-width: 100%; 
+}
+.form-check-input {
+    background-color: #f8f9fa;
+}
